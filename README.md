@@ -17,4 +17,4 @@ I also resized the four oversized product photos in `images/` to fit their displ
 
 ## Collaboration and reflection
 
-I worked through this lab on my own. The hardest part was the recipe card, because the HTML order does not match the visual order, so I used flexbox order to move the stats row to the top. The potato page taught me how absolute positioning can place a nav bar over a header background. The agency page was mostly about getting the hover state on the service cards right. Comparing my pages side by side with the screenshots helped me catch spacing mistakes I would have missed otherwise.
+I did this lab independently. The most challenging part was the recipe card since the HTML order is different from the visual order. Therefore, I used flexbox order to make the stats row come up first. The potato page allowed me to learn how to use absolute positioning to overlap the nav bar on the header background. For the agency page, the challenge was making sure the hover effect on the service cards was done correctly. Looking at my pages side by side with the screenshots made it easy to spot any spacing errors.
