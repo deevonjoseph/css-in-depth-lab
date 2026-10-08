@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+header {
+    padding: 25px 60px 70px;
+    background: #24437c;
+    color: #ffffff;
+}
+
+nav {
+    overflow: auto;
+}
+
+.nav-brand {
+    float: left;
+    width: 130px;
+}
+
+.nav-primary {
+    float: right;
+    margin-top: 8px;
+    list-style: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav-item a {
+    color: #ffffff;
+    font-size: 0.85em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.cta-btn {
+    padding: 8px 22px;
+    border-radius: 16px;
+    background: #3dc1ef;
+    color: #ffffff;
+    font-size: 0.85em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.cta-btn a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-btn {
+    display: inline-block;
+}
+
+.header-title {
+    margin: 90px 0 12px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+.header-subtitle {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: #7fa0c4;
+}
+
+#button-container {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.header-services {
+    max-width: 1150px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+    margin: 0 1.5%;
+    padding: 30px 25px;
+    text-align: left;
+}
+
+.service:hover {
+    background: #3dc1ef;
+}
+
+.service-title {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+
+.service-intro {
+    font-size: 0.8em;
+    line-height: 1.7;
+    color: #dce7f2;
+}
+
+.service:hover .service-intro {
+    color: #ffffff;
+}
+
+.service-link {
+    display: block;
+    margin-top: 12px;
+    color: #ffffff;
+    font-size: 0.85em;
+    text-decoration: none;
+}
